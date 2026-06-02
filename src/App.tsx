@@ -9,6 +9,7 @@ import Project from "./components/view/Project";
 import Skills from "./components/view/Skills";
 import History from "./components/view/History";
 // import Certificates from "./components/view/Certificates";
+import Footer from "./components/Footer";
 
 export default function App() {
   const sectionRefs = useRef({
@@ -71,6 +72,7 @@ export default function App() {
           <Contact />
         </Section> */}
       </main>
+      <Footer />
     </>
   );
 }
